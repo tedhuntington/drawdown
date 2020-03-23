@@ -4,7 +4,7 @@ import cache
 import plot
 
 #symbols = ['^GSPC', '^BVSP']
-symbols = ['^GSPC']
+symbols = ['^GSPC', '^DJI']
 for symbol in symbols:
     data = feeder_yahoo.get_data(symbol)
 

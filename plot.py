@@ -4,9 +4,9 @@ import datetime as dt
 
 def crashes(data, symbol):
     strs = {
-        '^BVSP': {
-            'title': 'Ibovespa: Atual queda comparada com suas maiores',
-            'xlabel': '',
+        '^DJI': {
+            'title': 'Current DJI sell off against major ones',
+            'xlabel': ' # of trading days',
         },
         '^GSPC': {
             'title': 'Current S&P 500 sell off against major ones',
